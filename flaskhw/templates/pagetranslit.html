@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Транслитератор</title>
+	 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<!-- Bootstrap Core CSS -->
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<style>
+	h1.header {
+	color:#E8DFC8;
+	}
+	.descr {
+	color: white
+	}
+	
+	p {font-size: 13pt}
+	
+	ul {list-style: none}
+	
+	li {margin-bottom: 10px}
+	
+	</style>
+	
+	</head>
+	<body>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+			<div class="container"> 
+				
+				<nav class="collapse navbar-collapse" id="bs-navbar"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li> <a href="/">Транслитерация слова</a> </li> 
+						<li> <a href="/pagetranslit">Транслитерация web-страницы</a> </li>
+					</ul>
+				</nav> 
+			</div>
+		</nav>
+		<header style="background-color:#086375; padding-top:70px; "> 
+			<div class="container"> 
+				<div class="row">
+					<div class="col-md-4">
+						<br/><br/>
+						<h1 class="header">Транслитерация web-страницы</h1>
+						<hr>
+						<p class="descr"><i>Введите в форму URL веб-страницы, чтобы получить транслитерацию ее содержимого в дореволюционную орфографию</i></p> 
+	                </div>
+					<div class="col-md-4">
+        	           
+					</div>
+	            </div>
+			</div>
+		</header>
+
+		<section id="portfolio" style="background-image: url('img/cork-wallet.png');">
+			<div class="container" >
+				<div class="col-md-12" >
+				<br/><br/>
+
+<p>Вот что получилось при транслитерации главной страницы сайта lenta.ru:</p>
+<p>{{result}}</p>
+				
+				<br/><br/>
+			</div>
+		</section>
+		<footer class="bs-docs-footer"> 
+			<div class="container"> 
+				<p style="text-align:right; ">Кек</p> 
+			</div>
+		</footer>	
+		
+	</body>
+</html>
